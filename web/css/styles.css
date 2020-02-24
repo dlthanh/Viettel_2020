@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img, video {
+    vertical-align: middle;
+}
+
+.w980 {
+    width: 980px;
+    margin: 0 auto;
+}
+.w660 {
+    width: 660px;
+    margin: 0 auto;
+}
+.w450 {
+    width: 450px;
+}
+
+.emag-wrapper {
+    font-family: 'NotoSerif', serif;
+    padding-top: 44px;
+    padding-bottom: 60px;
+    background-color: #182c41;
+}
+.emag-cover img {
+    width: 100%;
+}
+.emag-sapo {
+    margin: 60px auto;
+}
+.emag-title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.emag-content p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #c9c9c9;
+    margin-bottom: 30px;
+}
+.emag-content p.question {
+    color: #64b2de;
+}
+.emag-image {
+    margin-bottom: 30px;
+}
+.emag-image img {
+    width: 100%;
+}
+.emag-image-right img {
+    float: right;
+    margin-left: 30px;
+    margin-right: -160px;
+    margin-bottom: 30px;
+}
+.emag-image-right::after {
+    content: '';
+    display: block;
+    clear: both;
+}
